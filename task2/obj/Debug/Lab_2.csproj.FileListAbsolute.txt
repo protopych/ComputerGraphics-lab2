@@ -1,0 +1,11 @@
+D:\Egor\Study\Computer Graphics\Lab2\Lab_2\bin\Debug\Lab_2.exe.config
+D:\Egor\Study\Computer Graphics\Lab2\Lab_2\bin\Debug\Lab_2.exe
+D:\Egor\Study\Computer Graphics\Lab2\Lab_2\bin\Debug\Lab_2.pdb
+D:\Egor\Study\Computer Graphics\Lab2\Lab_2\obj\Debug\Lab_2.csproj.AssemblyReference.cache
+D:\Egor\Study\Computer Graphics\Lab2\Lab_2\obj\Debug\Lab_2.csproj.SuggestedBindingRedirects.cache
+D:\Egor\Study\Computer Graphics\Lab2\Lab_2\obj\Debug\Lab_2.Form1.resources
+D:\Egor\Study\Computer Graphics\Lab2\Lab_2\obj\Debug\Lab_2.Properties.Resources.resources
+D:\Egor\Study\Computer Graphics\Lab2\Lab_2\obj\Debug\Lab_2.csproj.GenerateResource.cache
+D:\Egor\Study\Computer Graphics\Lab2\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
+D:\Egor\Study\Computer Graphics\Lab2\Lab_2\obj\Debug\Lab_2.exe
+D:\Egor\Study\Computer Graphics\Lab2\Lab_2\obj\Debug\Lab_2.pdb
