@@ -53,7 +53,19 @@ namespace compgraph3
         }
 
         Bitmap bmp;
-        double sh = 18, ss = 10, sv = 10;
+        double sh = 9, ss = 5, sv = 5;
+
+         double gt0(double v, double sv) {
+            v += sv * 0.1 - 0.5;
+            if (v > 1) return 1;
+            else if (v < 0) return 0;
+            else return v;
+        }
+        double gt0_360(double v, double sv)
+        {
+            v += sv * 20;
+            return v % 360;
+        }
 
         void redrawPic() {
 
@@ -65,9 +77,9 @@ namespace compgraph3
                 {
                     rgb = bmp.GetPixel(x, y);
                     toHSV(rgb, out h, out s, out v);
-                    h = sh * 20 * h/360;
-                    s *= ss * 0.1;
-                    v *= sv * 0.1;
+                        h = gt0_360(h, sh);
+                        s = gt0(s, ss);
+                        v = gt0(v, sv);
                     bmp.SetPixel(x, y, HSVtoRGB(h, s, v));
                 }
             pictureBox2.Image = bmp;
